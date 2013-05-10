@@ -6,7 +6,7 @@ describe User do
     @user = User.new(name: "Example User", email: "user@example.com")
   end
 
-  it "should save the user successfully" do
+  it "should save the user" do
     expect { @user.save! }.not_to raise_error
   end
 end
